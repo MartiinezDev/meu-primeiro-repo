@@ -149,7 +149,9 @@ body {
   width: 250px;
   height: 30px;
   padding: 7px 15px;
-  border: 2px solid chartreuse;
+  border: 2px solid #32b9cd;
+  border-radius: 13px;
+  text-align: center;
 }
 
 .formulario button{
@@ -169,12 +171,3 @@ body {
 .agora{
   font-weight: 800;
 }
-
-
-
-
-
-
-
-
-
