@@ -5,6 +5,8 @@ body {
   background-color: #000000;
 }
 
+/* HEADER */
+
 .header{
   border-bottom: 3px solid #32b9cd;
 }
@@ -34,8 +36,14 @@ body {
   color: #e3b062;
 }
 
+.navbar a{
+  text-decoration: none;
+  color: #e3b062;
+  cursor: pointer;
+}
 
-/* banner */
+
+/* BANNER */
 
 .banner{
   padding: 40px 20px 30px 10px;
@@ -86,7 +94,7 @@ body {
 }
 
 
-/* footer */
+/* FOOTER */
 
 .footer{
   height: 100px;
@@ -102,3 +110,71 @@ body {
 .footer .container p{
   font-weight: bold;
 }
+
+/* LOGIN */
+
+.login .container{
+  justify-content: center;
+  background-image: url("imagens/bg-jelly-fish-para_outras_pags.png");
+  background-size: cover;
+  height: 75vh;
+  align-items: center;
+}
+
+.login .container .card{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 300px;
+  border-radius: 7px;
+  border-color: palevioletred;
+}
+
+.card h2{
+  color: palevioletred;
+}
+
+.campo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card span{
+  color: chartreuse;
+}
+
+.campo input{
+  width: 250px;
+  height: 30px;
+  padding: 7px 15px;
+  border: 2px solid chartreuse;
+}
+
+.formulario button{
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: palevioletred;
+  color: #fff;
+  transition: .4s ease-in-out;
+  border: none;
+  cursor: wait;
+}
+
+.formulario button:hover{
+  background-color: chartreuse;
+}
+
+.agora{
+  font-weight: 800;
+}
+
+
+
+
+
+
+
+
+
